@@ -1,10 +1,10 @@
 import java.util.*;
 public class ExamVariousArray {
-	int i;
+
+	private int i;
+
 	public void main(String args[])
 	{
-		
-
 	System.out.println("*******************");
 	System.out.println("배열 사용하기");
 	System.out.println("*******************");
@@ -19,27 +19,32 @@ public class ExamVariousArray {
 			this.i=S.nextInt();
 			
 			if(i == 1)
-			
-			new SecondMax().Sestart();
-			
+			{
+			SecondMax s= new SecondMax();
+			s.Sestart();
+			}
 
-			else if(i == 2)
-			new AvgScore().Avstart();
+			else if(i == 2){
+			AvgScore a = new AvgScore();
+			a.Avstart();
+			}
 			
-			else if(i == 3)
-			new StudentScore().Ststart();
-			
-			else if(i == 4)
-			new AptPersonCount().Apstart();				
-			
-			else if(i == 5)
-			new OnlyNumber().Onstart();
-				
-			else if(i == 6)
+			else if(i == 3){
+			StudentScore st = new StudentScore();
+			st.Ststart();
+			}
+			else if(i == 4){
+			AptPersonCount Ap = new AptPersonCount();
+			Ap.Apstart();				
+			}
+			else if(i == 5){
+			OnlyNumber On = new OnlyNumber();
+			On.Onstart();
+			}
+			else if(i == 6){
 			System.exit(0);
-			
-			else 
-			return;
+			}
+
 						
 															
 			
