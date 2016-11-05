@@ -8,14 +8,10 @@ import java.util.*;
 		System.out.println("두번째 큰 수를 출력하라..");
 		System.out.println("=============================== ");				
 		
-	 Culluc();
-	}
-	
-	void Culluc()
-	{
+		System.out.println("수를 입력하라.");
 		Scanner s = new Scanner(System.in);
-		this.o = s.nextInt();  
-		if(input[0] > input[1])
+		
+		if(input[0] > input[1])  
 		   {
               o = input[0];
               second = input[1];
@@ -40,11 +36,7 @@ import java.util.*;
               }
           }
 
-          
-          print();
-	}
-	void print(){
-		System.out.println("두번째로 큰 수는"+second+"입니다.");
+  		System.out.println("두번째로 큰 수는"+second+"입니다.");
 	}
 	
 
